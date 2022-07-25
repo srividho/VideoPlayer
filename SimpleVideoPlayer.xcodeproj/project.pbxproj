@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100CB46228757C0700858F81 /* HobbiesPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CB46128757C0700858F81 /* HobbiesPlaylist.swift */; };
+		100CB4682875DFA800858F81 /* CookingPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CB4672875DFA800858F81 /* CookingPlaylist.swift */; };
+		106F3686287008B800CD1BAD /* SimpleVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F3685287008B800CD1BAD /* SimpleVideoPlayer.swift */; };
+		106F3688287008B800CD1BAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F3687287008B800CD1BAD /* ContentView.swift */; };
+		106F368A287008BB00CD1BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106F3689287008BB00CD1BAD /* Assets.xcassets */; };
+		106F368D287008BB00CD1BAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106F368C287008BB00CD1BAD /* Preview Assets.xcassets */; };
+		106F369A2870163F00CD1BAD /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F36992870163F00CD1BAD /* PopUpView.swift */; };
+		106F369C28702D6D00CD1BAD /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F369B28702D6D00CD1BAD /* VideoViewModel.swift */; };
+		106F36A028702DC300CD1BAD /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F369F28702DC300CD1BAD /* Video.swift */; };
+		106F36A328703F6600CD1BAD /* PlayListTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F36A228703F6600CD1BAD /* PlayListTab.swift */; };
+		106F36A72870512500CD1BAD /* VideosTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F36A62870512500CD1BAD /* VideosTab.swift */; };
+		10A2C32A288D6B060071C397 /* Hobbies Are Important.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C325288D6B060071C397 /* Hobbies Are Important.mp4 */; };
+		10A2C32B288D6B060071C397 /* Here are 7 hobbies that science says will make you smarter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C326288D6B060071C397 /* Here are 7 hobbies that science says will make you smarter.mp4 */; };
+		10A2C32C288D6B060071C397 /* HOW TO FIND A HOBBY | ALL YOU NEED TO KNOW.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C327288D6B060071C397 /* HOW TO FIND A HOBBY | ALL YOU NEED TO KNOW.mp4 */; };
+		10A2C32D288D6B060071C397 /* Learn English_ What's your favourite hobby? - Australia Plus.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C328288D6B060071C397 /* Learn English_ What's your favourite hobby? - Australia Plus.mp4 */; };
+		10A2C32E288D6B060071C397 /* Hobbies.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C329288D6B060071C397 /* Hobbies.mp4 */; };
+		10A2C336288E96E30071C397 /* What happens inside your body when you exercise?.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C331288E96E20071C397 /* What happens inside your body when you exercise?.mp4 */; };
+		10A2C337288E96E30071C397 /* Josh's WORKOUT motivation (close enough 2) - FOCUS on YOUSELF motivation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C332288E96E30071C397 /* Josh's WORKOUT motivation (close enough 2) - FOCUS on YOUSELF motivation.mp4 */; };
+		10A2C338288E96E30071C397 /* Can You Work Out While Sore?.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C333288E96E30071C397 /* Can You Work Out While Sore?.mp4 */; };
+		10A2C339288E96E30071C397 /* Cardio vs. strength training_ What you need to know.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C334288E96E30071C397 /* Cardio vs. strength training_ What you need to know.mp4 */; };
+		10A2C33A288E96E30071C397 /* Muscle Recovery | 5 Ways to Reduce Soreness.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C335288E96E30071C397 /* Muscle Recovery | 5 Ways to Reduce Soreness.mp4 */; };
+		10A2C340288E996D0071C397 /* How to Convert Recipes Using a Conversion Factor | Easy Cooking Tips.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C33B288E996C0071C397 /* How to Convert Recipes Using a Conversion Factor | Easy Cooking Tips.mp4 */; };
+		10A2C341288E996D0071C397 /* 1 minute healthy sweet recipe | easy sweet recipe | evening snack recipe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C33C288E996D0071C397 /* 1 minute healthy sweet recipe | easy sweet recipe | evening snack recipe.mp4 */; };
+		10A2C342288E996D0071C397 /* How to Record Instagram-Worthy Cooking Videos | Filmmaking Tips.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C33D288E996D0071C397 /* How to Record Instagram-Worthy Cooking Videos | Filmmaking Tips.mp4 */; };
+		10A2C343288E996D0071C397 /* Try this 'EGG, POTATO AND TOMATO' breakfast recipe. Pwede i-ulam sa kanin o i-palaman sa tasty bread.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C33E288E996D0071C397 /* Try this 'EGG, POTATO AND TOMATO' breakfast recipe. Pwede i-ulam sa kanin o i-palaman sa tasty bread.mp4 */; };
+		10A2C344288E996D0071C397 /* Gordon Ramsay's Top 10 Tips for Cooking the Perfect Steak.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C33F288E996D0071C397 /* Gordon Ramsay's Top 10 Tips for Cooking the Perfect Steak.mp4 */; };
+		10A2C34A288E9BDB0071C397 /* Baymax! | Official Trailer 2 | Disney+.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C345288E9BDB0071C397 /* Baymax! | Official Trailer 2 | Disney+.mp4 */; };
+		10A2C34B288E9BDB0071C397 /* The Sea Beast | Official Trailer | Netflix.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C346288E9BDB0071C397 /* The Sea Beast | Official Trailer | Netflix.mp4 */; };
+		10A2C34C288E9BDB0071C397 /* Toast - Animated Short Film by GULU.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C347288E9BDB0071C397 /* Toast - Animated Short Film by GULU.mp4 */; };
+		10A2C34D288E9BDB0071C397 /* Strange World | Teaser Trailer | Walt Disney Animation Studios.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C348288E9BDB0071C397 /* Strange World | Teaser Trailer | Walt Disney Animation Studios.mp4 */; };
+		10A2C34E288E9BDB0071C397 /* I Am Groot | Official Trailer | Disney+.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C349288E9BDB0071C397 /* I Am Groot | Official Trailer | Disney+.mp4 */; };
+		10A2C354288E9D8A0071C397 /* Teaching Tips | Experiential Learning Model.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C34F288E9D8A0071C397 /* Teaching Tips | Experiential Learning Model.mp4 */; };
+		10A2C355288E9D8A0071C397 /* How To Type Faster.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C350288E9D8A0071C397 /* How To Type Faster.mp4 */; };
+		10A2C356288E9D8A0071C397 /* 6 tips to make the most of your online learning journey.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C351288E9D8A0071C397 /* 6 tips to make the most of your online learning journey.mp4 */; };
+		10A2C357288E9D8A0071C397 /* Online Learning Tips for Students!.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C352288E9D8A0071C397 /* Online Learning Tips for Students!.mp4 */; };
+		10A2C358288E9D8A0071C397 /* 12 Top Learning Tips - Trailer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C353288E9D8A0071C397 /* 12 Top Learning Tips - Trailer.mp4 */; };
+		10A2C35E288E9E2A0071C397 /* Star Wombs | Pencilmation Cartoon #26.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C359288E9E2A0071C397 /* Star Wombs | Pencilmation Cartoon #26.mp4 */; };
+		10A2C35F288E9E2A0071C397 /* Plight of the Living Dude | Pencilmation Cartoon #24.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C35A288E9E2A0071C397 /* Plight of the Living Dude | Pencilmation Cartoon #24.mp4 */; };
+		10A2C360288E9E2A0071C397 /* Tricky Treat | Pencilmation Cartoon #29.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C35B288E9E2A0071C397 /* Tricky Treat | Pencilmation Cartoon #29.mp4 */; };
+		10A2C361288E9E2A0071C397 /* Taxi and I Know It | Pencilmation Cartoon #25.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C35C288E9E2A0071C397 /* Taxi and I Know It | Pencilmation Cartoon #25.mp4 */; };
+		10A2C362288E9E2A0071C397 /* Flower Power | Pencilmation Cartoon #27.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A2C35D288E9E2A0071C397 /* Flower Power | Pencilmation Cartoon #27.mp4 */; };
+		10DDC0732876A6F400DEA7B1 /* WorkoutPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DDC0722876A6F400DEA7B1 /* WorkoutPlaylist.swift */; };
+		10DDC0752876A70C00DEA7B1 /* MoviesPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DDC0742876A70C00DEA7B1 /* MoviesPlaylist.swift */; };
+		10DDC0772876A72200DEA7B1 /* LearningsPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DDC0762876A72200DEA7B1 /* LearningsPlaylist.swift */; };
+		10DDC0792876A73600DEA7B1 /* CartoonsPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DDC0782876A73600DEA7B1 /* CartoonsPlaylist.swift */; };
+		10DDC08B2876C61800DEA7B1 /* How Bill Gates reads books.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10DDC0862876C61800DEA7B1 /* How Bill Gates reads books.mp4 */; };
+		10DDC08C2876C61800DEA7B1 /* How Bill Gates remembers what he reads.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10DDC0872876C61800DEA7B1 /* How Bill Gates remembers what he reads.mp4 */; };
+		10DDC08D2876C61800DEA7B1 /* How To Read A Difficult Book - Superficial Reading.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10DDC0882876C61800DEA7B1 /* How To Read A Difficult Book - Superficial Reading.mp4 */; };
+		10DDC08E2876C61800DEA7B1 /* How To Read a Book a Week | Jim Kwik.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10DDC0892876C61800DEA7B1 /* How To Read a Book a Week | Jim Kwik.mp4 */; };
+		10DDC08F2876C61800DEA7B1 /* Bill Gates' reading habits.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10DDC08A2876C61800DEA7B1 /* Bill Gates' reading habits.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100CB46128757C0700858F81 /* HobbiesPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesPlaylist.swift; sourceTree = "<group>"; };
+		100CB4672875DFA800858F81 /* CookingPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingPlaylist.swift; sourceTree = "<group>"; };
+		106F3682287008B800CD1BAD /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		106F3685287008B800CD1BAD /* SimpleVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVideoPlayer.swift; sourceTree = "<group>"; };
+		106F3687287008B800CD1BAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		106F3689287008BB00CD1BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		106F368C287008BB00CD1BAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		106F36992870163F00CD1BAD /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		106F369B28702D6D00CD1BAD /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
+		106F369F28702DC300CD1BAD /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		106F36A228703F6600CD1BAD /* PlayListTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListTab.swift; sourceTree = "<group>"; };
+		106F36A62870512500CD1BAD /* VideosTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosTab.swift; sourceTree = "<group>"; };
+		10A2C325288D6B060071C397 /* Hobbies Are Important.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hobbies Are Important.mp4"; sourceTree = "<group>"; };
+		10A2C326288D6B060071C397 /* Here are 7 hobbies that science says will make you smarter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Here are 7 hobbies that science says will make you smarter.mp4"; sourceTree = "<group>"; };
+		10A2C327288D6B060071C397 /* HOW TO FIND A HOBBY | ALL YOU NEED TO KNOW.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HOW TO FIND A HOBBY | ALL YOU NEED TO KNOW.mp4"; sourceTree = "<group>"; };
+		10A2C328288D6B060071C397 /* Learn English_ What's your favourite hobby? - Australia Plus.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Learn English_ What's your favourite hobby? - Australia Plus.mp4"; sourceTree = "<group>"; };
+		10A2C329288D6B060071C397 /* Hobbies.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hobbies.mp4; sourceTree = "<group>"; };
+		10A2C331288E96E20071C397 /* What happens inside your body when you exercise?.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "What happens inside your body when you exercise?.mp4"; sourceTree = "<group>"; };
+		10A2C332288E96E30071C397 /* Josh's WORKOUT motivation (close enough 2) - FOCUS on YOUSELF motivation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Josh's WORKOUT motivation (close enough 2) - FOCUS on YOUSELF motivation.mp4"; sourceTree = "<group>"; };
+		10A2C333288E96E30071C397 /* Can You Work Out While Sore?.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Can You Work Out While Sore?.mp4"; sourceTree = "<group>"; };
+		10A2C334288E96E30071C397 /* Cardio vs. strength training_ What you need to know.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cardio vs. strength training_ What you need to know.mp4"; sourceTree = "<group>"; };
+		10A2C335288E96E30071C397 /* Muscle Recovery | 5 Ways to Reduce Soreness.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muscle Recovery | 5 Ways to Reduce Soreness.mp4"; sourceTree = "<group>"; };
+		10A2C33B288E996C0071C397 /* How to Convert Recipes Using a Conversion Factor | Easy Cooking Tips.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How to Convert Recipes Using a Conversion Factor | Easy Cooking Tips.mp4"; sourceTree = "<group>"; };
+		10A2C33C288E996D0071C397 /* 1 minute healthy sweet recipe | easy sweet recipe | evening snack recipe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1 minute healthy sweet recipe | easy sweet recipe | evening snack recipe.mp4"; sourceTree = "<group>"; };
+		10A2C33D288E996D0071C397 /* How to Record Instagram-Worthy Cooking Videos | Filmmaking Tips.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How to Record Instagram-Worthy Cooking Videos | Filmmaking Tips.mp4"; sourceTree = "<group>"; };
+		10A2C33E288E996D0071C397 /* Try this 'EGG, POTATO AND TOMATO' breakfast recipe. Pwede i-ulam sa kanin o i-palaman sa tasty bread.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Try this 'EGG, POTATO AND TOMATO' breakfast recipe. Pwede i-ulam sa kanin o i-palaman sa tasty bread.mp4"; sourceTree = "<group>"; };
+		10A2C33F288E996D0071C397 /* Gordon Ramsay's Top 10 Tips for Cooking the Perfect Steak.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordon Ramsay's Top 10 Tips for Cooking the Perfect Steak.mp4"; sourceTree = "<group>"; };
+		10A2C345288E9BDB0071C397 /* Baymax! | Official Trailer 2 | Disney+.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baymax! | Official Trailer 2 | Disney+.mp4"; sourceTree = "<group>"; };
+		10A2C346288E9BDB0071C397 /* The Sea Beast | Official Trailer | Netflix.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Sea Beast | Official Trailer | Netflix.mp4"; sourceTree = "<group>"; };
+		10A2C347288E9BDB0071C397 /* Toast - Animated Short Film by GULU.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Toast - Animated Short Film by GULU.mp4"; sourceTree = "<group>"; };
+		10A2C348288E9BDB0071C397 /* Strange World | Teaser Trailer | Walt Disney Animation Studios.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Strange World | Teaser Trailer | Walt Disney Animation Studios.mp4"; sourceTree = "<group>"; };
+		10A2C349288E9BDB0071C397 /* I Am Groot | Official Trailer | Disney+.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I Am Groot | Official Trailer | Disney+.mp4"; sourceTree = "<group>"; };
+		10A2C34F288E9D8A0071C397 /* Teaching Tips | Experiential Learning Model.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Teaching Tips | Experiential Learning Model.mp4"; sourceTree = "<group>"; };
+		10A2C350288E9D8A0071C397 /* How To Type Faster.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How To Type Faster.mp4"; sourceTree = "<group>"; };
+		10A2C351288E9D8A0071C397 /* 6 tips to make the most of your online learning journey.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6 tips to make the most of your online learning journey.mp4"; sourceTree = "<group>"; };
+		10A2C352288E9D8A0071C397 /* Online Learning Tips for Students!.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Online Learning Tips for Students!.mp4"; sourceTree = "<group>"; };
+		10A2C353288E9D8A0071C397 /* 12 Top Learning Tips - Trailer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "12 Top Learning Tips - Trailer.mp4"; sourceTree = "<group>"; };
+		10A2C359288E9E2A0071C397 /* Star Wombs | Pencilmation Cartoon #26.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Star Wombs | Pencilmation Cartoon #26.mp4"; sourceTree = "<group>"; };
+		10A2C35A288E9E2A0071C397 /* Plight of the Living Dude | Pencilmation Cartoon #24.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Plight of the Living Dude | Pencilmation Cartoon #24.mp4"; sourceTree = "<group>"; };
+		10A2C35B288E9E2A0071C397 /* Tricky Treat | Pencilmation Cartoon #29.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tricky Treat | Pencilmation Cartoon #29.mp4"; sourceTree = "<group>"; };
+		10A2C35C288E9E2A0071C397 /* Taxi and I Know It | Pencilmation Cartoon #25.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Taxi and I Know It | Pencilmation Cartoon #25.mp4"; sourceTree = "<group>"; };
+		10A2C35D288E9E2A0071C397 /* Flower Power | Pencilmation Cartoon #27.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flower Power | Pencilmation Cartoon #27.mp4"; sourceTree = "<group>"; };
+		10DDC0722876A6F400DEA7B1 /* WorkoutPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlaylist.swift; sourceTree = "<group>"; };
+		10DDC0742876A70C00DEA7B1 /* MoviesPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPlaylist.swift; sourceTree = "<group>"; };
+		10DDC0762876A72200DEA7B1 /* LearningsPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningsPlaylist.swift; sourceTree = "<group>"; };
+		10DDC0782876A73600DEA7B1 /* CartoonsPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonsPlaylist.swift; sourceTree = "<group>"; };
+		10DDC0862876C61800DEA7B1 /* How Bill Gates reads books.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How Bill Gates reads books.mp4"; sourceTree = "<group>"; };
+		10DDC0872876C61800DEA7B1 /* How Bill Gates remembers what he reads.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How Bill Gates remembers what he reads.mp4"; sourceTree = "<group>"; };
+		10DDC0882876C61800DEA7B1 /* How To Read A Difficult Book - Superficial Reading.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How To Read A Difficult Book - Superficial Reading.mp4"; sourceTree = "<group>"; };
+		10DDC0892876C61800DEA7B1 /* How To Read a Book a Week | Jim Kwik.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How To Read a Book a Week | Jim Kwik.mp4"; sourceTree = "<group>"; };
+		10DDC08A2876C61800DEA7B1 /* Bill Gates' reading habits.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bill Gates' reading habits.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		106F367F287008B800CD1BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		106F3679287008B800CD1BAD = {
+			isa = PBXGroup;
+			children = (
+				106F3684287008B800CD1BAD /* demo */,
+				106F3683287008B800CD1BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		106F3683287008B800CD1BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				106F3682287008B800CD1BAD /* demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		106F3684287008B800CD1BAD /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				106F3685287008B800CD1BAD /* SimpleVideoPlayer.swift */,
+				106F36A128702DEA00CD1BAD /* View */,
+				106F369E28702DA600CD1BAD /* Model */,
+				106F369D28702D9B00CD1BAD /* ViewModel */,
+				106F3689287008BB00CD1BAD /* Assets.xcassets */,
+				10A2C35D288E9E2A0071C397 /* Flower Power | Pencilmation Cartoon #27.mp4 */,
+				10A2C35A288E9E2A0071C397 /* Plight of the Living Dude | Pencilmation Cartoon #24.mp4 */,
+				10A2C359288E9E2A0071C397 /* Star Wombs | Pencilmation Cartoon #26.mp4 */,
+				10A2C35C288E9E2A0071C397 /* Taxi and I Know It | Pencilmation Cartoon #25.mp4 */,
+				10A2C35B288E9E2A0071C397 /* Tricky Treat | Pencilmation Cartoon #29.mp4 */,
+				10A2C351288E9D8A0071C397 /* 6 tips to make the most of your online learning journey.mp4 */,
+				10A2C353288E9D8A0071C397 /* 12 Top Learning Tips - Trailer.mp4 */,
+				10A2C350288E9D8A0071C397 /* How To Type Faster.mp4 */,
+				10A2C352288E9D8A0071C397 /* Online Learning Tips for Students!.mp4 */,
+				10A2C34F288E9D8A0071C397 /* Teaching Tips | Experiential Learning Model.mp4 */,
+				10A2C345288E9BDB0071C397 /* Baymax! | Official Trailer 2 | Disney+.mp4 */,
+				10A2C349288E9BDB0071C397 /* I Am Groot | Official Trailer | Disney+.mp4 */,
+				10A2C348288E9BDB0071C397 /* Strange World | Teaser Trailer | Walt Disney Animation Studios.mp4 */,
+				10A2C346288E9BDB0071C397 /* The Sea Beast | Official Trailer | Netflix.mp4 */,
+				10A2C347288E9BDB0071C397 /* Toast - Animated Short Film by GULU.mp4 */,
+				10A2C33C288E996D0071C397 /* 1 minute healthy sweet recipe | easy sweet recipe | evening snack recipe.mp4 */,
+				10A2C33F288E996D0071C397 /* Gordon Ramsay's Top 10 Tips for Cooking the Perfect Steak.mp4 */,
+				10A2C33B288E996C0071C397 /* How to Convert Recipes Using a Conversion Factor | Easy Cooking Tips.mp4 */,
+				10A2C33D288E996D0071C397 /* How to Record Instagram-Worthy Cooking Videos | Filmmaking Tips.mp4 */,
+				10A2C33E288E996D0071C397 /* Try this 'EGG, POTATO AND TOMATO' breakfast recipe. Pwede i-ulam sa kanin o i-palaman sa tasty bread.mp4 */,
+				10A2C333288E96E30071C397 /* Can You Work Out While Sore?.mp4 */,
+				10A2C334288E96E30071C397 /* Cardio vs. strength training_ What you need to know.mp4 */,
+				10A2C332288E96E30071C397 /* Josh's WORKOUT motivation (close enough 2) - FOCUS on YOUSELF motivation.mp4 */,
+				10A2C335288E96E30071C397 /* Muscle Recovery | 5 Ways to Reduce Soreness.mp4 */,
+				10A2C331288E96E20071C397 /* What happens inside your body when you exercise?.mp4 */,
+				10DDC08A2876C61800DEA7B1 /* Bill Gates' reading habits.mp4 */,
+				10DDC0862876C61800DEA7B1 /* How Bill Gates reads books.mp4 */,
+				10DDC0872876C61800DEA7B1 /* How Bill Gates remembers what he reads.mp4 */,
+				10DDC0892876C61800DEA7B1 /* How To Read a Book a Week | Jim Kwik.mp4 */,
+				10A2C326288D6B060071C397 /* Here are 7 hobbies that science says will make you smarter.mp4 */,
+				10A2C325288D6B060071C397 /* Hobbies Are Important.mp4 */,
+				10A2C329288D6B060071C397 /* Hobbies.mp4 */,
+				10A2C327288D6B060071C397 /* HOW TO FIND A HOBBY | ALL YOU NEED TO KNOW.mp4 */,
+				10A2C328288D6B060071C397 /* Learn English_ What's your favourite hobby? - Australia Plus.mp4 */,
+				10DDC0882876C61800DEA7B1 /* How To Read A Difficult Book - Superficial Reading.mp4 */,
+				106F368B287008BB00CD1BAD /* Preview Content */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		106F368B287008BB00CD1BAD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				106F368C287008BB00CD1BAD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		106F369D28702D9B00CD1BAD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				106F369B28702D6D00CD1BAD /* VideoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		106F369E28702DA600CD1BAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				106F369F28702DC300CD1BAD /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		106F36A128702DEA00CD1BAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				106F3687287008B800CD1BAD /* ContentView.swift */,
+				106F36A62870512500CD1BAD /* VideosTab.swift */,
+				106F36992870163F00CD1BAD /* PopUpView.swift */,
+				106F36A228703F6600CD1BAD /* PlayListTab.swift */,
+				100CB46128757C0700858F81 /* HobbiesPlaylist.swift */,
+				10DDC0722876A6F400DEA7B1 /* WorkoutPlaylist.swift */,
+				100CB4672875DFA800858F81 /* CookingPlaylist.swift */,
+				10DDC0742876A70C00DEA7B1 /* MoviesPlaylist.swift */,
+				10DDC0762876A72200DEA7B1 /* LearningsPlaylist.swift */,
+				10DDC0782876A73600DEA7B1 /* CartoonsPlaylist.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		106F3681287008B800CD1BAD /* demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106F3690287008BB00CD1BAD /* Build configuration list for PBXNativeTarget "demo" */;
+			buildPhases = (
+				106F367E287008B800CD1BAD /* Sources */,
+				106F367F287008B800CD1BAD /* Frameworks */,
+				106F3680287008B800CD1BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demo;
+			productName = demo;
+			productReference = 106F3682287008B800CD1BAD /* demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		106F367A287008B800CD1BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					106F3681287008B800CD1BAD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 106F367D287008B800CD1BAD /* Build configuration list for PBXProject "SimpleVideoPlayer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 106F3679287008B800CD1BAD;
+			productRefGroup = 106F3683287008B800CD1BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				106F3681287008B800CD1BAD /* demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		106F3680287008B800CD1BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A2C32D288D6B060071C397 /* Learn English_ What's your favourite hobby? - Australia Plus.mp4 in Resources */,
+				10A2C344288E996D0071C397 /* Gordon Ramsay's Top 10 Tips for Cooking the Perfect Steak.mp4 in Resources */,
+				10A2C32B288D6B060071C397 /* Here are 7 hobbies that science says will make you smarter.mp4 in Resources */,
+				10DDC08C2876C61800DEA7B1 /* How Bill Gates remembers what he reads.mp4 in Resources */,
+				10A2C337288E96E30071C397 /* Josh's WORKOUT motivation (close enough 2) - FOCUS on YOUSELF motivation.mp4 in Resources */,
+				10A2C33A288E96E30071C397 /* Muscle Recovery | 5 Ways to Reduce Soreness.mp4 in Resources */,
+				10A2C35F288E9E2A0071C397 /* Plight of the Living Dude | Pencilmation Cartoon #24.mp4 in Resources */,
+				10A2C338288E96E30071C397 /* Can You Work Out While Sore?.mp4 in Resources */,
+				10DDC08E2876C61800DEA7B1 /* How To Read a Book a Week | Jim Kwik.mp4 in Resources */,
+				10A2C356288E9D8A0071C397 /* 6 tips to make the most of your online learning journey.mp4 in Resources */,
+				10A2C336288E96E30071C397 /* What happens inside your body when you exercise?.mp4 in Resources */,
+				106F368D287008BB00CD1BAD /* Preview Assets.xcassets in Resources */,
+				10A2C32C288D6B060071C397 /* HOW TO FIND A HOBBY | ALL YOU NEED TO KNOW.mp4 in Resources */,
+				10A2C339288E96E30071C397 /* Cardio vs. strength training_ What you need to know.mp4 in Resources */,
+				10A2C355288E9D8A0071C397 /* How To Type Faster.mp4 in Resources */,
+				10A2C34B288E9BDB0071C397 /* The Sea Beast | Official Trailer | Netflix.mp4 in Resources */,
+				10DDC08B2876C61800DEA7B1 /* How Bill Gates reads books.mp4 in Resources */,
+				10A2C35E288E9E2A0071C397 /* Star Wombs | Pencilmation Cartoon #26.mp4 in Resources */,
+				10A2C32A288D6B060071C397 /* Hobbies Are Important.mp4 in Resources */,
+				10A2C34A288E9BDB0071C397 /* Baymax! | Official Trailer 2 | Disney+.mp4 in Resources */,
+				10A2C34E288E9BDB0071C397 /* I Am Groot | Official Trailer | Disney+.mp4 in Resources */,
+				10A2C340288E996D0071C397 /* How to Convert Recipes Using a Conversion Factor | Easy Cooking Tips.mp4 in Resources */,
+				10A2C343288E996D0071C397 /* Try this 'EGG, POTATO AND TOMATO' breakfast recipe. Pwede i-ulam sa kanin o i-palaman sa tasty bread.mp4 in Resources */,
+				10A2C34D288E9BDB0071C397 /* Strange World | Teaser Trailer | Walt Disney Animation Studios.mp4 in Resources */,
+				10A2C34C288E9BDB0071C397 /* Toast - Animated Short Film by GULU.mp4 in Resources */,
+				106F368A287008BB00CD1BAD /* Assets.xcassets in Resources */,
+				10A2C362288E9E2A0071C397 /* Flower Power | Pencilmation Cartoon #27.mp4 in Resources */,
+				10DDC08D2876C61800DEA7B1 /* How To Read A Difficult Book - Superficial Reading.mp4 in Resources */,
+				10A2C357288E9D8A0071C397 /* Online Learning Tips for Students!.mp4 in Resources */,
+				10A2C32E288D6B060071C397 /* Hobbies.mp4 in Resources */,
+				10DDC08F2876C61800DEA7B1 /* Bill Gates' reading habits.mp4 in Resources */,
+				10A2C342288E996D0071C397 /* How to Record Instagram-Worthy Cooking Videos | Filmmaking Tips.mp4 in Resources */,
+				10A2C360288E9E2A0071C397 /* Tricky Treat | Pencilmation Cartoon #29.mp4 in Resources */,
+				10A2C341288E996D0071C397 /* 1 minute healthy sweet recipe | easy sweet recipe | evening snack recipe.mp4 in Resources */,
+				10A2C361288E9E2A0071C397 /* Taxi and I Know It | Pencilmation Cartoon #25.mp4 in Resources */,
+				10A2C358288E9D8A0071C397 /* 12 Top Learning Tips - Trailer.mp4 in Resources */,
+				10A2C354288E9D8A0071C397 /* Teaching Tips | Experiential Learning Model.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		106F367E287008B800CD1BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DDC0752876A70C00DEA7B1 /* MoviesPlaylist.swift in Sources */,
+				10DDC0772876A72200DEA7B1 /* LearningsPlaylist.swift in Sources */,
+				100CB46228757C0700858F81 /* HobbiesPlaylist.swift in Sources */,
+				10DDC0732876A6F400DEA7B1 /* WorkoutPlaylist.swift in Sources */,
+				106F3688287008B800CD1BAD /* ContentView.swift in Sources */,
+				10DDC0792876A73600DEA7B1 /* CartoonsPlaylist.swift in Sources */,
+				106F36A028702DC300CD1BAD /* Video.swift in Sources */,
+				106F369A2870163F00CD1BAD /* PopUpView.swift in Sources */,
+				106F36A328703F6600CD1BAD /* PlayListTab.swift in Sources */,
+				106F369C28702D6D00CD1BAD /* VideoViewModel.swift in Sources */,
+				100CB4682875DFA800858F81 /* CookingPlaylist.swift in Sources */,
+				106F3686287008B800CD1BAD /* SimpleVideoPlayer.swift in Sources */,
+				106F36A72870512500CD1BAD /* VideosTab.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		106F368E287008BB00CD1BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		106F368F287008BB00CD1BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		106F3691287008BB00CD1BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 46TBCL637H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sri.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		106F3692287008BB00CD1BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 46TBCL637H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sri.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		106F367D287008B800CD1BAD /* Build configuration list for PBXProject "SimpleVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106F368E287008BB00CD1BAD /* Debug */,
+				106F368F287008BB00CD1BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		106F3690287008BB00CD1BAD /* Build configuration list for PBXNativeTarget "demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106F3691287008BB00CD1BAD /* Debug */,
+				106F3692287008BB00CD1BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 106F367A287008B800CD1BAD /* Project object */;
+}
